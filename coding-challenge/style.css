@@ -1,0 +1,91 @@
+*{
+  box-sizing:border-box;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  background-image: url("immagini/background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+
+
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  border-radius:20px;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.logo{
+  width: 200px;
+  margin-left: 250px;
+}
+
+.titolo{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0,180,0);
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+  background-color:rgb(0,180,0);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a{
+  background-color: lightgrey;
+  color:black;
+  text-decoration: none;
+  padding: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 2px;
+}
+
+.infoMonopattino{
+  margin-top: 20px;
+  color: white;
+}
+
+div > label{
+  font-size: 20px;
+}
+
+h5{
+  margin:3px;
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
+
+.barraUno{
+  width: 300px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.barraDue{
+  width: 500px;
+  height: 30px;
+  background-color:green;
+  border-radius: 5px;
+}
+
+.barraTre{
+  width: 100px;
+  background-color: red;
+  height: 30px;
+  border-radius: 5px;
+}
